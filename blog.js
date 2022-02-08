@@ -140,7 +140,7 @@ function firstBlogContent() {
               <button class="btn-post">Post Blog</button>
             </div>
             <h1>
-              <a href="blog-detail.html" target="_blank">Pasar Coding di Indonesia Dinilai Masih Menjanjikan</a>
+              <a href="blog-detail.html">Pasar Coding di Indonesia Dinilai Masih Menjanjikan</a>
             </h1>
             <div class="detail-blog-content">
               12 Jul 2021 22:30 WIB | Ichsan Emrald Alamsyah
