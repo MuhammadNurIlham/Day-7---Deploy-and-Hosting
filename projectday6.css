@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 194, 86);
+    /* background-color: rgb(238, 217, 178); */
+}
+
+/* Styling All tag a */
+a {
+    text-decoration: none;
+}
+
+/* Styling All tag ul */
+ul {
+    list-style-type: none;
+}
+
+/* Styling tag Header */
+header {
+    display: flex;
+}
+
+/* Styling tag div in Header */
+header div {
+    display: flex;
+    flex: 50%;
+}
+
+/* Start Styling header left-side */
+header .left-side {
+    background-color: rgb(5, 5, 59);
+    display: flex;
+    justify-content: flex-start;
+    /* flex: 50%; */
+}
+
+header .left-side img {
+    width: 25%;
+    margin: 10px;
+    margin-left: 35px;
+}
+
+header .left-side ul {
+    /* list-style-type: none; */
+    /* padding-left: 0; */
+    margin-left: 10px;
+}
+
+header .left-side ul li a {
+    color: black;
+}
+
+header .left-side ul li a h2 {
+    margin-top: 30px;
+    margin-bottom: 3px;
+    font-family: 'Pacifico';
+    font-weight: 500;
+    color: whitesmoke
+}
+
+header .left-side ul li a p {
+    font-size: 15px;
+    font-style: bold;
+    font-family: 'Poppins';
+    color: rgb(25, 223, 91);
+}
+/* End Styling header left-side */
+
+/* Start Styling header right-side */
+header .right-side {
+    background-color: rgb(5, 5, 59);
+    display: flex;
+    justify-content: flex-end;
+    /* flex: 50%; */
+}
+
+header .right-side h2 {
+    color: whitesmoke;
+    margin: 50px;
+    padding-right: 25px;
+}
+/* End Styling header right-side */
+
+/* Start Styling Navbar */
+nav {
+    display: flex;
+    background-color: rgb(5, 5, 59);
+    justify-content: space-evenly;
+    /* padding: 20px 0; */
+    height: 10vh;
+    align-items: center;
+    color: whitesmoke;
+}
+
+/* Styling Container in Navbar*/
+nav .container {
+    background-color: yellow;
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+    /* justify-content: space-around; */
+}
+
+nav .container ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav .container ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Pacifico';
+    font-size: 15px;
+    font-style: bold;
+    margin: 50px;
+    padding: 5px 10px;
+    background-color: rgb(3, 170, 59);
+    border-radius: 7px;
+}
+
+nav .container ul li a:hover {
+    color: rgb(247, 230, 0)
+}
+/* End Styling Container navbar */
+/* End Styling Navbar */
+
+/* Start Blog Detail Project */
+.detail-project {
+    display: flex;
+    justify-content: center;
+}
+
+.container-detail-project {
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    /* background-color: brown; */
+}
+
+.container-detail-project .title-detail-project h1 {
+    text-align: center;
+}
+
+.container-detail-project .header-detail-project {
+    display: flex;
+    margin-top: 30px;
+}
+
+.header-detail-project .header-left-project {
+    flex: 60%;
+    /* background-color: aqua; */
+}
+
+.header-detail-project .header-left-project img {
+    width: 100%;
+}
+
+.header-detail-project .header-right-project {
+    flex: 40%;
+    /* background-color: beige; */
+}
+
+.header-right-project .top-right-project {
+    /* display: inline; */
+    /* background-color: rgb(164, 162, 177); */
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.header-right-project .top-right-project div {
+    display: flex;
+}
+
+.header-right-project .top-right-project h3 {
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+}
+
+.header-right-project .top-right-project i {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.header-right-project .top-right-project p {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.header-right-project .bottom-right-project {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* background-color: blanchedalmond; */
+}
+
+.header-right-project .bottom-project {
+    /* background-color: brown; */
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.header-right-project .bottom-project h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    /* background-color: aqua; */
+}
+
+.header-right-project .bottom-right-project .icon-left-project {
+    display: flex;
+    flex: 40%;
+}
+.header-right-project .bottom-right-project .icon-right-project {
+    display: flex;
+    flex: 60%;
+}
+
+.sub-icon-left div {
+    margin-bottom: 20px;
+}
+.sub-icon-right div {
+    margin-bottom: 20px;
+}
+
+.header-right-project .bottom-right-project i {
+    display: inline;
+    margin-right: 10px;
+}
+.header-right-project .bottom-right-project p {
+    display: inline;
+    font-family: 'Montserrat';
+}
+
+.content-blog-detail {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* background-color: rgb(255, 254, 254); */
+}
+
+.content-blog-detail p {
+    text-align: justify;
+}

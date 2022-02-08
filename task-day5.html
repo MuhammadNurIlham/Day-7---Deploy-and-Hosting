@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Creating Blog Page">
+        <meta name="keywords" content="HTML, CSS, Javascript">
+        <meta name="author" content="Muhammad Nur Ilham">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="style.css"/> -->
+        <link rel="stylesheet" href="projectday5.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+        <title>Project Creating Blog Page</title>
+    </head>
+
+    <body>
+        <!-- NavBar -->
+        <!-- Start Header -->
+        <header>
+            <div class="left-side">
+                <img src="/Chapter 1/Day 3 - Navbar and Layouting/assets/iii-removebg-preview.png" alt="">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <h2>Muhammad Nur Ilham</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://dumbways.id/" rel="Dumbways.id" target="blank">
+                            <p>Student Fullstack Javascript at Dumbways</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-side">
+                <a href="https://www.google.com/maps/place/DumbWays+Indonesia/@-6.3013588,106.7329682,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69f1202c227c7f:0x55b285547291a43f!8m2!3d-6.3013588!4d106.7351569" target="blank">
+                    <h2>PT. DumbWays Indonesia</h2>
+                </a>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- Start Navbar -->
+        <nav>
+            <!-- Container Navbar -->
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="task-day1.html">Profil</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="task-day5.html">Project</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Container Navbar -->
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- Blog Project -->
+        <!-- Form Project -->
+        <div class="blog-project">
+            <div class="form-blog-project">
+                <div class="container-blog-project">
+                    <form onsubmit="addNewBlog(event)">
+                        <h1>Add My Project</h1>
+                        <div class="name-project">
+                            <label for="input-project-name">Project Name</label>
+                            <input id="input-project-name" type="text"/>
+                        </div>
+                        <div class="time-project">
+                            <div class="time-project-left">
+                                <label for="input-start-time">Start Date</label>
+                                <input id="input-start-time" type="date">
+                            </div>
+                            <div class="time-project-right">
+                                <label for="input-end-time">End Date</label>
+                                <input id="input-end-time" type="date">
+                            </div>
+                        </div>
+                        <div class="description-project">
+                            <label for="input-description">Description</label>
+                            <textarea id="input-description"></textarea>
+                        </div>
+                        <div class="list-project-group">
+                            <div>
+                                <label for="input-name-list-project">Tecnhologies</label>
+                            </div>
+                            <div class="list-project">
+                                <div class="list-left-project">
+                                    <div>
+                                        <input type="checkbox" id="input-list-checkbox">
+                                        <label for="checkbox">Node Js</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="input-list-checkbox">
+                                        <label for="checkbox">React Js</label>
+                                    </div>
+                                </div>
+                                <div class="list-right-project">
+                                    <div>
+                                        <input type="checkbox" id="input-list-checkbox">
+                                        <label for="checkbox">Python</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="input-list-checkbox">
+                                        <label for="checkbox">PHP</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-project">
+                            <label for="input-myfile">Upload Image</label>
+                            <input type="file" id="input-myfile" name="myfile">
+                        </div>
+                        <div class="button-project">
+                            <button>Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Form Create Blog Add My Project Task Day 5 -->
+
+        <!-- Start Article Card Post Blog -->
+        <article>
+            <div class="my-project">
+                <h1>My Project</h1>
+            </div>
+            <div id="article" class="article-project">
+                <div class="project-card">
+                    <div class="menu-project-card">
+                        <div class="image-card-project">
+                            <img src="assets/svg.png" alt="svg-image">
+                        </div>
+                        <div class="title-card-project">
+                            <h3>
+                                <a href="task-day6.html">SWK Mobile App</a>
+                            </h3>
+                            <p>durasi : 3 bulan</p>
+                        </div>
+                        <div class="content-card-project">
+                            <p>App that used for all people Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates fugit id debitis consequuntur accusantium.</p>
+                        </div>
+                        <div class="logo-card-project">
+                            <img src="assets/js.png" alt="Js-image">
+                            <img src="assets/git.png" alt="git-image">
+                            <img src="assets/deploy.png" alt="deploy-image">
+                        </div>
+                        <div class="btn-project">
+                            <div class="btn-edit-project">
+                                <button>Edit</button>
+                            </div>
+                            <div class="btn-delete-project">
+                                <button>Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="menu-project-card">
+                        <div class="image-card-project">
+                            <img src="assets/svg.png" alt="svg-image">
+                        </div>
+                        <div class="title-card-project">
+                            <h3>
+                                <a href="task-day6.html">SWK Mobile App</a>
+                            </h3>
+                            <p>durasi : 3 bulan</p>
+                        </div>
+                        <div class="content-card-project">
+                            <p>App that used for all people Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates fugit id debitis consequuntur accusantium.</p>
+                        </div>
+                        <div class="logo-card-project">
+                            <img src="assets/js.png" alt="Js-image">
+                            <img src="assets/git.png" alt="git-image">
+                            <img src="assets/deploy.png" alt="deploy-image">
+                        </div>
+                        <div class="btn-project">
+                            <div class="btn-edit-project">
+                                <button>Edit</button>
+                            </div>
+                            <div class="btn-delete-project">
+                                <button>Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="menu-project-card">
+                        <div class="image-card-project">
+                            <img src="assets/svg.png" alt="svg-image">
+                        </div>
+                        <div class="title-card-project">
+                            <h3>
+                                <a href="task-day6.html">SWK Mobile App</a>
+                            </h3>
+                            <p>durasi : 3 bulan</p>
+                        </div>
+                        <div class="content-card-project">
+                            <p>App that used for all people Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates fugit id debitis consequuntur accusantium.</p>
+                        </div>
+                        <div class="logo-card-project">
+                            <img src="assets/js.png" alt="Js-image">
+                            <img src="assets/git.png" alt="git-image">
+                            <img src="assets/deploy.png" alt="deploy-image">
+                        </div>
+                        <div class="btn-project">
+                            <div class="btn-edit-project">
+                                <button>Edit</button>
+                            </div>
+                            <div class="btn-delete-project">
+                                <button>Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="menu-project-card">
+                        <div class="image-card-project">
+                            <img src="assets/svg.png" alt="svg-image">
+                        </div>
+                        <div class="title-card-project">
+                            <h3>
+                                <a href="task-day6.html">SWK Mobile App</a>
+                            </h3>
+                            <p>durasi : 3 bulan</p>
+                        </div>
+                        <div class="content-card-project">
+                            <p>App that used for all people Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates fugit id debitis consequuntur accusantium.</p>
+                        </div>
+                        <div class="logo-card-project">
+                            <img src="assets/js.png" alt="Js-image">
+                            <img src="assets/git.png" alt="git-image">
+                            <img src="assets/deploy.png" alt="deploy-image">
+                        </div>
+                        <div class="btn-project">
+                            <div class="btn-edit-project">
+                                <button>Edit</button>
+                            </div>
+                            <div class="btn-delete-project">
+                                <button>Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <script src="project.js"></script>
+    </body>
+</html>

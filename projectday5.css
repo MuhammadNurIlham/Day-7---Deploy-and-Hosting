@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orange;
+}
+
+/* Styling All tag a */
+a {
+    text-decoration: none;
+}
+
+/* Styling All tag ul */
+ul {
+    list-style-type: none;
+}
+
+/* Styling tag Header */
+header {
+    display: flex;
+}
+
+/* Styling tag div in Header */
+header div {
+    display: flex;
+    flex: 50%;
+}
+
+/* Start Styling header left-side */
+header .left-side {
+    background-color: rgb(5, 5, 59);
+    display: flex;
+    justify-content: flex-start;
+    /* flex: 50%; */
+}
+
+header .left-side img {
+    width: 25%;
+    margin: 10px;
+    margin-left: 35px;
+}
+
+header .left-side ul {
+    /* list-style-type: none; */
+    /* padding-left: 0; */
+    margin-left: 10px;
+}
+
+header .left-side ul li a {
+    color: black;
+}
+
+header .left-side ul li a h2 {
+    margin-top: 30px;
+    margin-bottom: 3px;
+    font-family: 'Pacifico';
+    font-weight: 500;
+    color: whitesmoke
+}
+
+header .left-side ul li a p {
+    font-size: 15px;
+    font-style: bold;
+    font-family: 'Poppins';
+    color: rgb(25, 223, 91);
+}
+/* End Styling header left-side */
+
+/* Start Styling header right-side */
+header .right-side {
+    background-color: rgb(5, 5, 59);
+    display: flex;
+    justify-content: flex-end;
+    /* flex: 50%; */
+}
+
+header .right-side h2 {
+    color: whitesmoke;
+    margin: 50px;
+    padding-right: 25px;
+}
+/* End Styling header right-side */
+
+/* Start Styling Navbar */
+nav {
+    display: flex;
+    background-color: rgb(5, 5, 59);
+    justify-content: space-evenly;
+    /* padding: 20px 0; */
+    height: 10vh;
+    align-items: center;
+    color: whitesmoke;
+}
+
+/* Styling Container in Navbar*/
+nav .container {
+    background-color: yellow;
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+    /* justify-content: space-around; */
+}
+
+nav .container ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav .container ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Pacifico';
+    font-size: 15px;
+    font-style: bold;
+    margin: 50px;
+    padding: 5px 10px;
+    background-color: rgb(3, 170, 59);
+    border-radius: 7px;
+}
+
+nav .container ul li a:hover {
+    color: rgb(247, 230, 0)
+}
+/* End Styling Container navbar */
+/* End Styling Navbar */
+
+/* task day 5 */
+/* styling form blog project */
+.form-blog-project {
+    display: flex;
+    justify-content: center;
+}
+.form-blog-project label {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form-blog-project .container-blog-project {
+    width: 500px;
+}
+
+.form-blog-project .container-blog-project h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-family: 'Poppins';
+}
+
+.form-blog-project .container-blog-project label {
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+/* .form-blog-project .container-blog-project input {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+} */
+
+#input-project-name, #input-start-time, #input-end-time, #input-description {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    background-color: rgb(243, 201, 124);
+}
+
+.form-blog-project .time-project {
+    display: flex;
+}
+
+.form-blog-project .time-project .time-project-left {
+    flex: 50%;
+    margin-right: 5px;
+}
+
+.form-blog-project .time-project .time-project-right {
+    flex: 50%;
+    margin-left: 5px;
+}
+
+.form-blog-project .description-project textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.form-blog-project .list-project {
+    display: flex;
+}
+
+.form-blog-project .list-project .list-left-project {
+    display: inline;
+    flex: 50%;
+}
+
+.form-blog-project .list-project .list-left-project div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-blog-project .list-project #input-list-checkbox {
+    margin-right: 10px;
+}
+
+.form-blog-project .list-project .list-right-project {
+    display: inline;
+    flex: 50%;
+}
+
+.form-blog-project .list-project .list-right-project div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container-blog-project .image-project {
+    margin-top: 10px; 
+    margin-bottom: 20px;
+}
+.container-blog-project .image-project label {
+    margin-bottom: 10px;
+}
+
+.container-blog-project .image-project input {
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(243, 201, 124);
+    border: none;
+    border-radius: 5px;
+}
+
+.container-blog-project .button-project {
+    text-align: right;
+}
+
+.container-blog-project .button-project button {
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    background-color: orangered;
+    color: black;
+    padding: 5px 20px;
+    margin-bottom: 100px;
+}
+/* End Styling Form Blog Project Task Day 5 */
+
+article {
+    background-color: rgb(238, 217, 178);
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+}
+
+.my-project h1 {
+    text-align: center;
+    margin: 50px;
+    padding-top: 50px;
+    font-family: 'Poppins';
+    font-size: 35px;
+}
+
+.article-project {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.project-card .menu-project-card {
+    border: 1px solid aliceblue;
+    width: 300px;
+    height: 470px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 20px rgb(53, 52, 52);
+    background-color: aliceblue;
+    /* display: flex;
+    justify-content: space-between;
+    flex-flow: column; */
+}
+
+/* .project-card .flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    box-sizing: border-box;
+} */
+
+.project-card .menu-project-card .image-card-project {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.menu-project-card .image-card-project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.menu-project-card .title-card-project {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-project-card .title-card-project a {
+    text-decoration: none;
+    color: black;
+}
+.menu-project-card .title-card-project h3 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    text-align: left;
+}
+
+.menu-project-card .title-card-project p {
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: rgb(109, 107, 107);
+}
+
+.menu-project-card .content-card-project {
+    margin: 10px 10px;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.menu-project-card .logo-card-project {
+    margin: 15px;
+}
+
+.menu-project-card .logo-card-project img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.menu-project-card .btn-project {
+    display: flex;
+    /* margin-bottom: 15px; */
+    align-items: flex-end;
+}
+
+.menu-project-card .btn-project .btn-edit-project {
+    flex: 50%;
+    margin-right: 3px;
+    margin-left: 10px;
+}
+
+.menu-project-card .btn-project .btn-edit-project button {
+    border: none;
+    border-radius: 8px;
+    background-color: orange;
+    text-align: center;
+    padding: 8px;
+    width: 100%
+}
+
+.menu-project-card .btn-project .btn-delete-project {
+    flex: 50%;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+
+.menu-project-card .btn-project .btn-delete-project button {
+    border: none;
+    border-radius: 8px;
+    background-color: orange;
+    text-align: center;
+    padding: 8px;
+    width: 100%
+}

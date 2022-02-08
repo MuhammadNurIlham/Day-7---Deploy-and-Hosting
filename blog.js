@@ -61,7 +61,7 @@ function renderBlog() {
                 <button class="btn-post">Post Blog</button>
             </div>
             <h1>
-                <a href="blog-detail.html" target="_blank">
+                <a href="blog-detail.html">
                     ${blogs[i].title}
                 </a>
             </h1>
